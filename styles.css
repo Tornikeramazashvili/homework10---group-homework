@@ -268,3 +268,137 @@ header h1 {
     .item9{
         grid-row: span;
     }
+
+footer {
+  display: flex;
+  background-color: blue;
+}
+
+/* footer contact starts here */
+
+.footer-contact {
+  padding: 200px 0px 240px 240px;
+  width: 650px;
+  line-height: 26px;
+  color: white;
+}
+
+.footer-contact h1 {
+  font-size: 32px;
+}
+
+iframe {
+  margin-left: 10px;
+  width: 463px;
+  height: 197px;
+  box-shadow: -10px 10px #ffffff;
+  border: none;
+}
+
+.footer-contact-box {
+  width: 660px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.footer-contact-numbers,
+.footer-contact-email {
+  display: flex;
+  text-align: center;
+  align-items: center;
+}
+
+.footer-contact-box span {
+  padding-left: 20px;
+  font-size: 22px;
+  font-weight: bold;
+}
+
+.footer-contact .square-phone {
+  height: 70px;
+  width: 70px;
+  background-color: white;
+  background-image: url(images/phone.svg);
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.footer-contact-box .square-email {
+  height: 70px;
+  width: 70px;
+  background-color: white;
+  background-image: url(images/email.svg);
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.footer-contact .footer-copyright {
+  font-weight: bold;
+  position: absolute;
+  top: 850px;
+}
+
+/* footer contact ends here */
+
+/* footer registration form starts here */
+
+.footer-form {
+  position: relative;
+  padding: 260px 0px 240px 600px;
+}
+
+.input-field {
+  display: flex;
+  flex-direction: column;
+  padding-top: 10px;
+}
+
+.input-field label {
+  color: white;
+  font-weight: bold;
+}
+
+.input-field input {
+  width: 400px;
+  background: none;
+  border: none;
+  outline: none;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.294);
+}
+
+textarea {
+  resize: none;
+  width: 400px;
+  height: 100px;
+  background: none;
+  border: none;
+  outline: none;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.294);
+}
+
+.sent-button {
+  position: relative;
+}
+
+button {
+  position: absolute;
+  left: 250px;
+  top: 30px;
+  border: none;
+  font-weight: bold;
+  padding: 18px 40px;
+}
+
+/* footer registration form ends here */
+
+.footer-form .footer-made-by {
+  color: white;
+  font-weight: bold;
+  display: flex;
+  justify-content: space-between;
+  width: 350px;
+  align-items: center;
+  position: absolute;
+  top: 850px;
+  right: 0px;
+}
